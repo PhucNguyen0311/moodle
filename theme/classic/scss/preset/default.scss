@@ -21,6 +21,7 @@ $yellow:  #ff7518 !default;
 $green:   #398439 !default;
 $teal:    #20c997 !default;
 $cyan:    #5bc0de !default;
+$tory-blue: #0b55a8 !default;
 
 $primary:       $blue !default;
 $success:       $green !default;
@@ -28,6 +29,7 @@ $info:          $cyan !default;
 $warning:       $orange !default;
 $danger:        $red !default;
 $secondary:     $gray-400 !default;
+$edit:          $tory-blue !default;
 
 $info-outline:    #1f7e9a;
 $warning-outline: #a6670e;
@@ -69,6 +71,7 @@ $theme-colors: map-merge((
     info: $info,
     warning: $warning,
     danger: $danger,
+    edit: $edit,
 ), $theme-colors);
 // stylelint-enable
 
