@@ -538,12 +538,12 @@ span.editinstructions {
     font-size: $font-size-sm;
     padding: .1em .4em;
     background-color: $state-info-bg;
-    color: $state-info-text;
+    color: $state-edit-text;
     text-decoration: none;
     z-index: 9999;
 
     @include box-shadow(2px 2px 5px 1px #ccc);
-    border: 1px solid $state-info-border;
+    border: 1px solid $state-edit-border;
 }
 
 /* Course drag and drop upload styles */
@@ -553,10 +553,10 @@ span.editinstructions {
     width: 40%;
     margin: 0 30%;
     padding: 6px;
-    border: 1px solid $state-info-border;
+    border: 1px solid $state-edit-border;
     text-align: center;
     background: $state-info-bg;
-    color: $state-info-text;
+    color: $state-edit-text;
     z-index: 1; // Required in order to have this above relatively positioned course content@mixin
 
     @include box-shadow(2px 2px 5px 1px #ccc);

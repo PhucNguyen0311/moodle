@@ -60,6 +60,10 @@ $state-info-text: $info;
 $state-info-bg: theme-color-level("info", -10) !default;
 $state-info-border: theme-color-level("info", -9) !default;
 
+$state-edit-text: $edit;
+$state-edit-bg: theme-color-level("edit", -10) !default;
+$state-edit-border: theme-color-level("edit", -9) !default;
+
 $state-warning-text: $warning;
 $state-warning-bg: theme-color-level("warning", -10) !default;
 $state-warning-border: theme-color-level("warning", -10) !default;
